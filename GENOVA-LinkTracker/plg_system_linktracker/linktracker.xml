@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE extension>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+	<name>plg_system_linktracker</name>
+	<version>1.0</version>
+	<creationDate>false</creationDate>
+	<author>Alexander Bachmann</author>
+	<authorEmail>bachmann@genova.de</authorEmail>
+	<authorUrl>http://www.genova.de</authorUrl>
+	<copyright>(C) 2008 - 2012 GENOVA, Alexander Bachmann. All rights reserved.</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<description>PLG_SYSTEM_LINKTRACKER_DESCRIPTION</description>
+	<files>
+		<filename plugin="linktracker">linktracker.php</filename>
+		<filename>index.html</filename>
+		<folder>language</folder>
+		<folder>assets</folder>
+	</files>
+</extension>
